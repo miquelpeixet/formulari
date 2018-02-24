@@ -24,11 +24,11 @@
  
 <p>DADES PERSONALS</p>
     <label for="nom">Nom:</label> 
-    <input type="text" name="nom" id="nom"/><br>
+    <input type="text" name="nompers" id="nompers"/><br>
 
 <p>Sexe:
 <select id="sexe" name="sexe">
-    <option value="X" selected="selected"></option>
+    <option value="X" selected="selected">...</option>
 <option value="M">masculí</option>
 <option value="F">femení</option>
 </select> </p>
@@ -80,34 +80,32 @@
 <input type="checkbox" name="bands" value="nirvana">Nirvana<br>
 </p>
 
-<label for="bands">Quin d'aquests grups nacionals emmarcaries dins els anys 80's?</label> <br>
+<p>Quin d'aquests grups nacionals emmarcaries dins els anys 80's?<br>
 <input type="checkbox" name="movida" value="estopa">Estopa<br>
 <input type="checkbox" name="movida" value="mecano">Mecano<br>
 <input type="checkbox" name="movida" value="Radio Futura">Radio Futura<br>
 <input type="checkbox" name="movida" value="cantoloco">El Canto del Loco<br>
 <input type="checkbox" name="movida" value="nacha">Nacha Pop<br>
-<input type="checkbox" name="movida" value="oreja">La Oreja de Van Gogh<br><br>
+<input type="checkbox" name="movida" value="oreja">La Oreja de Van Gogh<br>
+</p> 
 
 <p>Escriu les respostes a les següents preguntes:<br>
 <label for="nom">Nom del cantant de Nirvana:</label> 
-<input type="text" name="singer" id="nom"/><br>
+<input type="text" name="singer" id="nomnirv"/><br>
 
 <label for="nom">Nom del guitarrista solista original de Guns'n'Roses:</label> 
-<input type="text" name="singer" id="nom"/><br>
+<input type="text" name="singer" id="nomguns"/><br>
 
 <label for="nom">Nom del cantant dels Rolling Stones:</label> 
-<input type="text" name="singer" id="nom"/><br>
+<input type="text" name="singer" id="nomrolling"/><br>
 
 <label for="nom">Sobrenom amb que es coneix a Eric Clapton:</label> 
-<input type="text" name="singer" id="nom"/><br>
+<input type="text" name="singer" id="nomeric"/><br>
 </p>
 
 <label for="sugger">En cas que es realitzés un programa sobre música a la TV, detalla quins apartats t'agradaria que tingués.<br>
 Poden ser notícies, actuacions en directe, entrevistes... etc. També pots afegir qualsevol altre suggeriment.</label><br>
 <textarea id="suggeriments" name="suggerim" rows="7" cols="50"></textarea>
-
-
-</form>
 
 <div id='resultats'></div>
 <div id="taularesultats"></div>
