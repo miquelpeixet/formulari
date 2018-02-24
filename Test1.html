@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="ca">
 <head>
-  <title>Test d'hàbits i cultura musical</title>
+  <title>Test de coneixements musicals</title>
   <meta http-equiv="content-type" content="text/html;charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel='stylesheet' media='screen and (min-width: 961px)' href='css/d.css'>
   <link rel='stylesheet' media='screen and (max-width: 960px)' href='css/m.css'>
-    
+  <script src='js/js.js'></script>
+  <link rel="logo" href="src/logo.png">
 </head>
 <body>
 
@@ -25,89 +26,88 @@
     <label for="nom">Nom:</label> 
     <input type="text" name="nom" id="nom"/><br>
 
-    <label for="sexe">Sexe:</label>
-    <select id="sexe" name="sexe">
-    <option value="X" selected="selected">...</option>
+<p>Sexe:
+<select id="sexe" name="sexe">
+    <option value="X" selected="selected"></option>
 <option value="M">masculí</option>
 <option value="F">femení</option>
-</select> <br>
+</select> </p>
 
-<label for="naixement">Any de naixement:</label>
-<select id="anynaix" name="anynaix">
-    <option value="X" selected="selected">...</option>
- <option value="0" selected="selected">...</option>
- <option value="1">Abans de 1970</option>
- <option value="2">1971-1980</option>
- <option value="3">1981-1990</option>
- <option value="4">1991-2000</option>
- <option value="5">Després del 2000</option>
-</select> <br><br><br>
+<p>Any de naixement:
+<select id="anynaixement" name="anynaixement">
+    <option value="0" selected="selected">...</option>
+    <option value="1">Abans de 1970</option>
+    <option value="2">1971-1980</option>
+    <option value="3">1981-1990</option>
+    <option value="4">1991-2000</option>
+    <option value="5">Després del 2000</option>
+</select> </p><br><br>
 
 <p>HÀBITS I PREFERÈNCIES</p>
-<label="freq">Amb quina freqüència escoltes música:</label> <br>
+<p>Amb quina freqüència escoltes música:<br>
 <input type="radio" name="freq" value="mes1">Més de 1h al dia<br>
 <input type="radio" name="freq" value="cadadia">Cada dia però menys de 1h<br>
 <input type="radio" name="freq" value="mes1set">Més de 1 dia a la setmana<br>
 <input type="radio" name="freq" value="finde">Només els caps de setmana<br>
 <input type="radio" name="freq" value="mai">Pràcticament mai<br>
-<br><br>
+</p>
 
-<label="freq">Quin estil t'agrada més (pots marcar-ne més d'un)</label> <br>
+<p>Quin estil t'agrada més (pots marcar-ne més d'un)<br>
 <input type="checkbox" name="estil" value="Rockclassic">Rock clàssic<br>
 <input type="checkbox" name="estil" value="indie">Indie / rock alternatiu<br>
 <input type="checkbox" name="estil" value="metal">Metal<br>
 <input type="checkbox" name="estil" value="rap">Rap<br>
 <input type="checkbox" name="estil" value="electro">Electrònica<br>
 <input type="checkbox" name="estil" value="altres">Altres<br>
-<br><br>
+</p>
 
 <p>CONEIXEMENTS GENÈRICS</p>
-<label="fm">Quina emissora de ràdio ofereix programació de música independent o alternativa?</label> <br>
+<p>Quina emissora de ràdio ofereix programació de música independents o alternativa?<br>
 <input type="checkbox" name="fm" value="m80">M80<br>
 <input type="checkbox" name="fm" value="Kiss">Kiss FM<br>
 <input type="checkbox" name="fm" value="Radio3">Radio 3<br>
 <input type="checkbox" name="fm" value="dial">Cadena Dial<br>
 <input type="checkbox" name="fm" value="rockfm">Rock FM<br>
 <input type="checkbox" name="fm" value="ondac">Onda Cero<br>
-<br><br>
+</p>
 
-<label="bands">Quin d'aquests grups se pot considerar un clàssic dels 70's?</label> <br>
+<p>Quin d'aquests grups se pot considerar un clàssic dels 70's?<br>
 <input type="checkbox" name="bands" value="ledzep">Led Zeppelin<br>
 <input type="checkbox" name="bands" value="pjam">Pearl Jam<br>
 <input type="checkbox" name="bands" value="metallica">Metallica<br>
 <input type="checkbox" name="bands" value="blacksab">Black Sabbath<br>
 <input type="checkbox" name="bands" value="beatles">The Beatles<br>
 <input type="checkbox" name="bands" value="nirvana">Nirvana<br>
-<br><br>
+</p>
 
-<label="bands">Quin d'aquests grups nacionals emmarcaries dins els anys 80's?</label> <br>
+<label for="bands">Quin d'aquests grups nacionals emmarcaries dins els anys 80's?</label> <br>
 <input type="checkbox" name="movida" value="estopa">Estopa<br>
 <input type="checkbox" name="movida" value="mecano">Mecano<br>
 <input type="checkbox" name="movida" value="Radio Futura">Radio Futura<br>
 <input type="checkbox" name="movida" value="cantoloco">El Canto del Loco<br>
 <input type="checkbox" name="movida" value="nacha">Nacha Pop<br>
-<input type="checkbox" name="movida" value="oreja">La Oreja de Van Gogh<br>
-<br><br>
+<input type="checkbox" name="movida" value="oreja">La Oreja de Van Gogh<br><br>
 
-<label ="musics">Escriu les respostes a les següents preguntes:</label> <br>
-<label="nomnirv">Nom del cantant de Nirvana:</label> 
-<input type="text" name="singnirv" id="nomnirv"/><br>
+<p>Escriu les respostes a les següents preguntes:<br>
+<label for="nom">Nom del cantant de Nirvana:</label> 
+<input type="text" name="singer" id="nom"/><br>
 
 <label for="nom">Nom del guitarrista solista original de Guns'n'Roses:</label> 
-<input type="text" name="guitguns" id="guitguns"/><br>
+<input type="text" name="singer" id="nom"/><br>
 
 <label for="nom">Nom del cantant dels Rolling Stones:</label> 
-<input type="text" name="singrolling" id="singrolling"/><br>
+<input type="text" name="singer" id="nom"/><br>
 
 <label for="nom">Sobrenom amb que es coneix a Eric Clapton:</label> 
-<input type="text" name="clapton" id="clapton"/><br>
-<br><br>
+<input type="text" name="singer" id="nom"/><br>
+</p>
 
-<label="sugger">En cas que es realitzés un programa sobre música a la TV, detalla quins apartats t'agradaria que tingués.<br>
+<label for="sugger">En cas que es realitzés un programa sobre música a la TV, detalla quins apartats t'agradaria que tingués.<br>
 Poden ser notícies, actuacions en directe, entrevistes... etc. També pots afegir qualsevol altre suggeriment.</label><br>
-<textarea id="suggeriments" name="suggerim" rows="7" cols="60"></textarea>
+<textarea id="suggeriments" name="suggerim" rows="7" cols="50"></textarea>
 
 
+</form>
 
 <div id='resultats'></div>
 <div id="taularesultats"></div>
@@ -115,5 +115,4 @@ Poden ser notícies, actuacions en directe, entrevistes... etc. També pots afeg
 
 </body>
 </html>
-  
   
