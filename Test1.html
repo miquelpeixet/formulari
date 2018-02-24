@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Test de coneixements musicals</title>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel='stylesheet' media='screen and (min-width: 961px)' href='css/d.css'>
+  <link rel='stylesheet' media='screen and (max-width: 960px)' href='css/m.css'>
+  <script src='js/js.js'></script>
+  <link rel="logo" href="src/logo.png">
+</head>
+<body>
+
+    <h2>Test d'hàbits i cultura musical</h2>
+    <h3>Benvingut a la web que te permetrà definir els teus hàbits i avaluar de manera genèrica els teus coneixements musicals</h3>
+
+<p>Degut a la manca de programes sobre música a l'actual graella de la TV (deixant de banda els "realities" i concursos) ens plantejam col·laborar en la producció d'un nou programa. Per això volem dur a terme un estudi sobre els hàbits musicals de la societat actual.</p>
+<p>Per fer-ho, en aquesta web te plantejam una sèrie de qüestions per tal conèixer els teus costums referents al consum de música així com els coneixements genèrics que tens sobre història i gèneres musicals. </p>
+<p>Així doncs, aquí trobaràs un test que te permetrà també autoavaluar-te i amb el que ens agradaria motivar-te a conèixer els grups i gèneres que s'hi citen.</p>
+<p>Gràcies per col·laborar!</p>
+
+
+<form name="formulari" id="formulari" method="post" action="data.php"
+<fieldset id="dadespersonals">
+    <legend id="legend_datos">DADES PERSONALS</legend> <br>
+    <label for="nom">Nom:</label> 
+    <input type="text" name="nom" id="nom"/><br>
+    <label for="sexe">Sexe:</label>
+<select id="sexe" name="sexe">
+    <option value="X" selected="selected">...</option>
+<option value="M">masculí</option>
+<option value="F">femení</option>
+</select> <br>
+<label for="naixement">Any de naixement:</label>
+<select id="anynaixement" name="anynaixement">
+    <option value="0" selected="selected">...</option>
+    <option value="1">Abans de 1970</option>
+    <option value="2">1971-1980</option>
+    <option value="3">1981-1990</option>
+    <option value="4">1991-2000</option>
+    <option value="5">Després del 2000</option>
+</select> <br><br><br>
+
+<legend id="habits">HÀBITS I PREFERÈNCIES</legend> <br>
+<label for="freq">Amb quina freqüència escoltes música:</label> <br>
+<input type="radio" name="freq" value="mes1">Més de 1h al dia<br>
+<input type="radio" name="freq" value="cadadia">Cada dia però menys de 1h<br>
+<input type="radio" name="freq" value="mes1set">Més de 1 dia a la setmana<br>
+<input type="radio" name="freq" value="finde">Només els caps de setmana<br>
+<input type="radio" name="freq" value="mai">Pràcticament mai<br>
+<br><br>
+
+<label for="freq">Quin estil t'agrada més (pots marcar-ne més d'un)</label> <br>
+<input type="checkbox" name="estil" value="Rockclassic">Rock clàssic<br>
+<input type="checkbox" name="estil" value="indie">Indie / rock alternatiu<br>
+<input type="checkbox" name="estil" value="metal">Metal<br>
+<input type="checkbox" name="estil" value="rap">Rap<br>
+<input type="checkbox" name="estil" value="electro">Electrònica<br>
+<input type="checkbox" name="estil" value="altres">Altres<br>
+<br><br>
+
+<legend id="habits">CONEIXEMENTS GENÈRICS</legend> <br>
+<label for="fm">Quina emissora de ràdio ofereix programació de música independent o alternativa?</label> <br>
+<input type="checkbox" name="fm" value="m80">M80<br>
+<input type="checkbox" name="fm" value="Kiss">Kiss FM<br>
+<input type="checkbox" name="fm" value="Radio3">Radio 3<br>
+<input type="checkbox" name="fm" value="dial">Cadena Dial<br>
+<input type="checkbox" name="fm" value="rockfm">Rock FM<br>
+<input type="checkbox" name="fm" value="ondac">Onda Cero<br>
+<br><br>
+
+<label for="bands">Quin d'aquests grups se pot considerar un clàssic dels 70's?</label> <br>
+<input type="checkbox" name="bands" value="ledzep">Led Zeppelin<br>
+<input type="checkbox" name="bands" value="pjam">Pearl Jam<br>
+<input type="checkbox" name="bands" value="metallica">Metallica<br>
+<input type="checkbox" name="bands" value="blacksab">Black Sabbath<br>
+<input type="checkbox" name="bands" value="beatles">The Beatles<br>
+<input type="checkbox" name="bands" value="nirvana">Nirvana<br>
+<br><br>
+
+<label for="bands">Quin d'aquests grups nacionals emmarcaries dins els anys 80's?</label> <br>
+<input type="checkbox" name="movida" value="estopa">Estopa<br>
+<input type="checkbox" name="movida" value="mecano">Mecano<br>
+<input type="checkbox" name="movida" value="Radio Futura">Radio Futura<br>
+<input type="checkbox" name="movida" value="cantoloco">El Canto del Loco<br>
+<input type="checkbox" name="movida" value="nacha">Nacha Pop<br>
+<input type="checkbox" name="movida" value="oreja">La Oreja de Van Gogh<br>
+<br><br>
+
+<label for="musics">Escriu les respostes a les següents preguntes:</label> <br>
+<label for="nom">Nom del cantant de Nirvana:</label> 
+<input type="text" name="singer" id="nom"/><br>
+
+<label for="nom">Nom del guitarrista solista original de Guns'n'Roses:</label> 
+<input type="text" name="singer" id="nom"/><br>
+
+<label for="nom">Nom del cantant dels Rolling Stones:</label> 
+<input type="text" name="singer" id="nom"/><br>
+
+<label for="nom">Sobrenom amb que es coneix a Eric Clapton:</label> 
+<input type="text" name="singer" id="nom"/><br>
+<br><br>
+
+<label for="sugger">En cas que es realitzés un programa sobre música a la TV, detalla quins apartats t'agradaria que tingués.<br>
+Poden ser notícies, actuacions en directe, entrevistes... etc. També pots afegir qualsevol altre suggeriment.</label><br>
+<textarea id="suggeriments" name="suggerim" rows="7" cols="50"></textarea>
+
+
+</form>
+</form>
+
+<div id='resultats'></div>
+<div id="taularesultats"></div>
+
+
+</body>
+</html>
+  
+  
