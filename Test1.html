@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+lang=ca
 <html>
 <head>
   <title>Test d'hàbits i cultura musical</title>
@@ -30,7 +31,7 @@
 <option value="M">masculí</option>
 <option value="F">femení</option>
 </select> <br>
-<label for="naixement">Any de naixement:</label>
+<label="naixement">Any de naixement:</label>
 <select id="anynaixement" name="anynaixement">
     <option value="0" selected="selected">...</option>
     <option value="1">Abans de 1970</option>
@@ -41,7 +42,7 @@
 </select> <br><br><br>
 
 <p>HÀBITS I PREFERÈNCIES</p>
-<label for="freq">Amb quina freqüència escoltes música:</label> <br>
+<label="freq">Amb quina freqüència escoltes música:</label> <br>
 <input type="radio" name="freq" value="mes1">Més de 1h al dia<br>
 <input type="radio" name="freq" value="cadadia">Cada dia però menys de 1h<br>
 <input type="radio" name="freq" value="mes1set">Més de 1 dia a la setmana<br>
@@ -49,7 +50,7 @@
 <input type="radio" name="freq" value="mai">Pràcticament mai<br>
 <br><br>
 
-<label for="freq">Quin estil t'agrada més (pots marcar-ne més d'un)</label> <br>
+<label="freq">Quin estil t'agrada més (pots marcar-ne més d'un)</label> <br>
 <input type="checkbox" name="estil" value="Rockclassic">Rock clàssic<br>
 <input type="checkbox" name="estil" value="indie">Indie / rock alternatiu<br>
 <input type="checkbox" name="estil" value="metal">Metal<br>
@@ -59,7 +60,7 @@
 <br><br>
 
 <p>CONEIXEMENTS GENÈRICS</p>
-<label for="fm">Quina emissora de ràdio ofereix programació de música independent o alternativa?</label> <br>
+<label="fm">Quina emissora de ràdio ofereix programació de música independent o alternativa?</label> <br>
 <input type="checkbox" name="fm" value="m80">M80<br>
 <input type="checkbox" name="fm" value="Kiss">Kiss FM<br>
 <input type="checkbox" name="fm" value="Radio3">Radio 3<br>
@@ -68,7 +69,7 @@
 <input type="checkbox" name="fm" value="ondac">Onda Cero<br>
 <br><br>
 
-<label for="bands">Quin d'aquests grups se pot considerar un clàssic dels 70's?</label> <br>
+<label="bands">Quin d'aquests grups se pot considerar un clàssic dels 70's?</label> <br>
 <input type="checkbox" name="bands" value="ledzep">Led Zeppelin<br>
 <input type="checkbox" name="bands" value="pjam">Pearl Jam<br>
 <input type="checkbox" name="bands" value="metallica">Metallica<br>
@@ -77,7 +78,7 @@
 <input type="checkbox" name="bands" value="nirvana">Nirvana<br>
 <br><br>
 
-<label for="bands">Quin d'aquests grups nacionals emmarcaries dins els anys 80's?</label> <br>
+<label="bands">Quin d'aquests grups nacionals emmarcaries dins els anys 80's?</label> <br>
 <input type="checkbox" name="movida" value="estopa">Estopa<br>
 <input type="checkbox" name="movida" value="mecano">Mecano<br>
 <input type="checkbox" name="movida" value="Radio Futura">Radio Futura<br>
@@ -86,8 +87,8 @@
 <input type="checkbox" name="movida" value="oreja">La Oreja de Van Gogh<br>
 <br><br>
 
-<label for="musics">Escriu les respostes a les següents preguntes:</label> <br>
-<label for="nomnirv">Nom del cantant de Nirvana:</label> 
+<label ="musics">Escriu les respostes a les següents preguntes:</label> <br>
+<label="nomnirv">Nom del cantant de Nirvana:</label> 
 <input type="text" name="singnirv" id="nomnirv"/><br>
 
 <label for="nom">Nom del guitarrista solista original de Guns'n'Roses:</label> 
@@ -100,12 +101,11 @@
 <input type="text" name="clapton" id="clapton"/><br>
 <br><br>
 
-<label for="sugger">En cas que es realitzés un programa sobre música a la TV, detalla quins apartats t'agradaria que tingués.<br>
+<label="sugger">En cas que es realitzés un programa sobre música a la TV, detalla quins apartats t'agradaria que tingués.<br>
 Poden ser notícies, actuacions en directe, entrevistes... etc. També pots afegir qualsevol altre suggeriment.</label><br>
 <textarea id="suggeriments" name="suggerim" rows="7" cols="60"></textarea>
 
 
-</form>
 
 <div id='resultats'></div>
 <div id="taularesultats"></div>
