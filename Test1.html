@@ -19,8 +19,9 @@
 <p>Gràcies per col·laborar!</p>
 
 
-<form name="formulari" id="formulari" method="post" action="data.php"
-    <legend id="legend_datos">DADES PERSONALS</legend> <br>
+<form id="formulari" name="formulari" method="post" action="data.php"></form>
+ 
+<p>DADES PERSONALS</p>
     <label for="nom">Nom:</label> 
     <input type="text" name="nom" id="nom"/><br>
     <label for="sexe">Sexe:</label>
@@ -39,7 +40,7 @@
     <option value="5">Després del 2000</option>
 </select> <br><br><br>
 
-<legend id="habits">HÀBITS I PREFERÈNCIES</legend> <br>
+<p>HÀBITS I PREFERÈNCIES</p>
 <label for="freq">Amb quina freqüència escoltes música:</label> <br>
 <input type="radio" name="freq" value="mes1">Més de 1h al dia<br>
 <input type="radio" name="freq" value="cadadia">Cada dia però menys de 1h<br>
@@ -57,7 +58,7 @@
 <input type="checkbox" name="estil" value="altres">Altres<br>
 <br><br>
 
-<legend id="habits">CONEIXEMENTS GENÈRICS</legend> <br>
+<p>CONEIXEMENTS GENÈRICS</p>
 <label for="fm">Quina emissora de ràdio ofereix programació de música independent o alternativa?</label> <br>
 <input type="checkbox" name="fm" value="m80">M80<br>
 <input type="checkbox" name="fm" value="Kiss">Kiss FM<br>
@@ -86,17 +87,17 @@
 <br><br>
 
 <label for="musics">Escriu les respostes a les següents preguntes:</label> <br>
-<label for="nom">Nom del cantant de Nirvana:</label> 
-<input type="text" name="singer" id="nom"/><br>
+<label for="nomnirv">Nom del cantant de Nirvana:</label> 
+<input type="text" name="singnirv" id="nomnirv"/><br>
 
 <label for="nom">Nom del guitarrista solista original de Guns'n'Roses:</label> 
-<input type="text" name="singer" id="nom"/><br>
+<input type="text" name="guitguns" id="guitguns"/><br>
 
 <label for="nom">Nom del cantant dels Rolling Stones:</label> 
-<input type="text" name="singer" id="nom"/><br>
+<input type="text" name="singrolling" id="singrolling"/><br>
 
 <label for="nom">Sobrenom amb que es coneix a Eric Clapton:</label> 
-<input type="text" name="singer" id="nom"/><br>
+<input type="text" name="clapton" id="clapton"/><br>
 <br><br>
 
 <label for="sugger">En cas que es realitzés un programa sobre música a la TV, detalla quins apartats t'agradaria que tingués.<br>
@@ -104,7 +105,6 @@ Poden ser notícies, actuacions en directe, entrevistes... etc. També pots afeg
 <textarea id="suggeriments" name="suggerim" rows="7" cols="60"></textarea>
 
 
-</form>
 </form>
 
 <div id='resultats'></div>
